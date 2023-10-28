@@ -54,8 +54,8 @@ if (!address) {
       <div className={styles.main}>
         <h2 className={styles.noGapBottom}>Connect Your Wallet</h2>
         <p>Connect your wallet to check eligibility.</p>
-        <button
-          onClick={connectWithMetamask}
+        <button 
+          onclick={"connectWithMetamask()"}
           className={`${styles.mainButton} ${styles.spacerTop}`}
         >
           Connect Wallet
